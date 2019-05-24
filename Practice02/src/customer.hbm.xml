@@ -18,7 +18,8 @@
 
 
         <!-- 一对多配置 -->
-        <set name="linkmen" cascade="save-update">   <!--  级联保存  保存关联对象  -->
+        <set name="linkmen" cascade="save-update,delete" inverse="true"
+        >   <!--  级联保存  保存关联对象   级联删除    inverse=true  表示当前类放弃外键的维护  -->
             <key column="link_cust_id"></key>   <!--  外键-->
             <one-to-many class="com.myxq.domain.Linkman"/>
         </set>
