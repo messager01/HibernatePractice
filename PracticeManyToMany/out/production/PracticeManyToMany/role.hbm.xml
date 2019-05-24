@@ -1,0 +1,30 @@
+<!DOCTYPE hibernate-mapping PUBLIC
+        "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+        "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+    <class name="com.myxq.domain.Role" table="role">
+        <!--  主键  主键还要和数据库中的主键做对应-->
+        <id name="role_id" column="role_id">
+            <generator class="native" ></generator>  <!--  采用本地的主键增长策略  -->
+        </id>
+
+        <!--  类中的普通字段  与数据库中的属性进行映射 -->
+        <property name="role_name" column="role_name"/>
+        <property name="role_memo" column="role_memo"/>
+
+
+
+        <!-- 一对多配置
+         name: 集合的名字
+         table:中间表的关系表
+         column:当前表的外键
+         class: 集合中对象的全路径
+         column：集合中对象的外键
+
+         -->
+       <set name="users" table="user_role">
+           <key column="role_id"></key>
+           <many-to-many class="com.myxq.domain.User" column="user_id"></many-to-many>
+       </set>
+    </class>
+</hibernate-mapping>

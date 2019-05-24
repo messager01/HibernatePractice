@@ -1,0 +1,36 @@
+<!DOCTYPE hibernate-configuration PUBLIC
+	"-//Hibernate/Hibernate Configuration DTD 3.0//EN"
+	"http://www.hibernate.org/dtd/hibernate-configuration-3.0.dtd">
+
+<hibernate-configuration>
+	<session-factory>
+
+		<!--  连接数据库基本参数   -->
+		<property name="hibernate.connection.driver_class">com.mysql.jdbc.Driver</property>
+		<property name="hibernate.connection.url">jdbc:mysql:///hibernate</property>
+		<property name="hibernate.connection.username">root</property>
+		<property name="hibernate.connection.password">root</property>
+
+		<!--  配置hibernate方言  -->
+		<property name="hibernate.dialect">org.hibernate.dialect.MySQL5Dialect</property>
+		<!--  打印SQL  -->
+		<property name="hibernate.show_sql">true</property>
+		<!--  格式化SQL  -->
+		<property name="hibernate.format_sql">true</property>
+		<!--  自动创建表  -->
+		<property name="hibernate.hbm2ddl.auto">update</property>
+
+		<!--
+		可选项：
+		none    不使用hibernate自动建表
+		create  如果数据库中已经有表，删除原表，重新创建     如果没有表，则新建表
+		create—drop  如果数据库中已有表，删除原表，执行操作，再删除这个表。如果没有表，新建一个，使用完后再删除
+		              在最后数据库中一个表都没有
+		update  如果有表，使用原有表，如果没有，创建新表
+		validate   检验映射和表结构是否一致   不一致就报错
+		-->
+
+		<mapping resource="customer.hbm.xml"/>
+		<mapping resource="linkman.hbm.xml"/>
+	</session-factory>
+</hibernate-configuration>
