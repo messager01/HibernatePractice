@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7f3abf11-a1e6-4b4e-94ac-edae77aedac5" name="Default Changelist" comment="" />
+    <list default="true" id="7f3abf11-a1e6-4b4e-94ac-edae77aedac5" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/com/myxq/test/HQL_Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/myxq/domain/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/myxq/domain/User.java" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -19,26 +23,26 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="java" value="6" />
+          <entry key="java" value="11" />
           <entry key="xml" value="5" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="6" />
+          <entry key="JAVA" value="11" />
           <entry key="XML" value="5" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="1265" />
+          <entry key="java" value="1943" />
           <entry key="txt" value="29" />
           <entry key="xml" value="208" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="1265" />
+          <entry key="JAVA" value="1943" />
           <entry key="PLAIN_TEXT" value="29" />
           <entry key="XML" value="208" />
         </counts>
@@ -47,34 +51,26 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/user.hbm.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="448">
-              <caret line="25" column="32" selection-start-line="25" selection-start-column="32" selection-end-line="25" selection-end-column="32" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/com/myxq/test/MyTest.java">
+        <entry file="file://$PROJECT_DIR$/src/com/myxq/test/HQL_Test.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="351">
-              <caret line="106" lean-forward="true" selection-start-line="106" selection-end-line="106" />
+            <state relative-caret-position="277">
+              <caret line="78" column="57" selection-start-line="78" selection-start-column="57" selection-end-line="78" selection-end-column="57" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="method#test#0;class#MyTest#0" />
-                <element signature="method#test1#0;class#MyTest#0" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/hibernate.cfg.xml">
+        <entry file="file://$PROJECT_DIR$/src/com/myxq/domain/User.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="393">
-              <caret line="33" column="39" selection-start-line="33" selection-start-column="39" selection-end-line="33" selection-end-column="39" />
+            <state relative-caret-position="407">
+              <caret line="27" column="19" lean-forward="true" selection-start-line="27" selection-start-column="19" selection-end-line="27" selection-end-column="19" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -95,12 +91,13 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/src/com/myxq/utils/HibernateUtil.java" />
-        <option value="$PROJECT_DIR$/src/com/myxq/domain/User.java" />
         <option value="$PROJECT_DIR$/src/com/myxq/domain/Role.java" />
         <option value="$PROJECT_DIR$/src/role.hbm.xml" />
         <option value="$PROJECT_DIR$/src/user.hbm.xml" />
         <option value="$PROJECT_DIR$/src/hibernate.cfg.xml" />
         <option value="$PROJECT_DIR$/src/com/myxq/test/MyTest.java" />
+        <option value="$PROJECT_DIR$/src/com/myxq/domain/User.java" />
+        <option value="$PROJECT_DIR$/src/com/myxq/test/HQL_Test.java" />
       </list>
     </option>
   </component>
@@ -122,7 +119,7 @@
       </MavenImportingSettings>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-5" />
     <option name="y" value="310" />
     <option name="width" value="1805" />
@@ -176,7 +173,7 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="com" type="462c0819:PsiDirectoryNode" />
               <item name="myxq" type="462c0819:PsiDirectoryNode" />
-              <item name="utils" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -188,9 +185,12 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1558700519477" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1558702317907" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.6517755" />
     <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.annotationProcessors" />
   </component>
   <component name="RecentsManager">
@@ -214,8 +214,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.MyTest.test2">
-    <configuration name="MyTest.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.HQL_Test.test3">
+    <configuration name="HQL_Test.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="PracticeManyToMany" />
       <extension name="coverage">
         <pattern>
@@ -224,14 +224,14 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.myxq.test" />
-      <option name="MAIN_CLASS_NAME" value="com.myxq.test.MyTest" />
+      <option name="MAIN_CLASS_NAME" value="com.myxq.test.HQL_Test" />
       <option name="METHOD_NAME" value="test" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MyTest.test1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="HQL_Test.test1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="PracticeManyToMany" />
       <extension name="coverage">
         <pattern>
@@ -240,8 +240,40 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.myxq.test" />
-      <option name="MAIN_CLASS_NAME" value="com.myxq.test.MyTest" />
+      <option name="MAIN_CLASS_NAME" value="com.myxq.test.HQL_Test" />
       <option name="METHOD_NAME" value="test1" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HQL_Test.test2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="PracticeManyToMany" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.myxq.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.myxq.test" />
+      <option name="MAIN_CLASS_NAME" value="com.myxq.test.HQL_Test" />
+      <option name="METHOD_NAME" value="test2" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HQL_Test.test3" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="PracticeManyToMany" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.myxq.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.myxq.test" />
+      <option name="MAIN_CLASS_NAME" value="com.myxq.test.HQL_Test" />
+      <option name="METHOD_NAME" value="test3" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -264,15 +296,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="JUnit.MyTest.test" />
-      <item itemvalue="JUnit.MyTest.test1" />
       <item itemvalue="JUnit.MyTest.test2" />
+      <item itemvalue="JUnit.HQL_Test.test" />
+      <item itemvalue="JUnit.HQL_Test.test1" />
+      <item itemvalue="JUnit.HQL_Test.test2" />
+      <item itemvalue="JUnit.HQL_Test.test3" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.HQL_Test.test3" />
+        <item itemvalue="JUnit.HQL_Test.test2" />
+        <item itemvalue="JUnit.HQL_Test.test1" />
+        <item itemvalue="JUnit.HQL_Test.test" />
         <item itemvalue="JUnit.MyTest.test2" />
-        <item itemvalue="JUnit.MyTest.test1" />
-        <item itemvalue="JUnit.MyTest.test" />
       </list>
     </recent_temporary>
   </component>
@@ -286,7 +322,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1558688682055</updated>
-      <workItem from="1558688684744" duration="3478000" />
+      <workItem from="1558688684744" duration="5551000" />
     </task>
     <task id="LOCAL-00001" summary="Hibernate 多对多操作">
       <created>1558699937525</created>
@@ -302,39 +338,56 @@
       <option name="project" value="LOCAL" />
       <updated>1558700296400</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Hibernate 多对多操作">
+      <created>1558700412614</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1558700412614</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="MyTest_test - 2019.05.24 at 19h 47m 32s.xml">
-      <configuration name="MyTest.test" configurationId="JUnit" />
+    <history-entry file="HQL_Test_test1 - 2019.05.24 at 20h 34m 07s.xml">
+      <configuration name="HQL_Test.test1" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MyTest_test - 2019.05.24 at 19h 48m 07s.xml">
-      <configuration name="MyTest.test" configurationId="JUnit" />
+    <history-entry file="HQL_Test_test2 - 2019.05.24 at 20h 39m 48s.xml">
+      <configuration name="HQL_Test.test2" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MyTest_test - 2019.05.24 at 19h 50m 36s.xml">
-      <configuration name="MyTest.test" configurationId="JUnit" />
+    <history-entry file="HQL_Test_test2 - 2019.05.24 at 20h 40m 53s.xml">
+      <configuration name="HQL_Test.test2" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MyTest_test1 - 2019.05.24 at 20h 06m 05s.xml">
-      <configuration name="MyTest.test1" configurationId="JUnit" />
+    <history-entry file="HQL_Test_test2 - 2019.05.24 at 20h 41m 09s.xml">
+      <configuration name="HQL_Test.test2" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MyTest_test1 - 2019.05.24 at 20h 06m 44s.xml">
-      <configuration name="MyTest.test1" configurationId="JUnit" />
+    <history-entry file="HQL_Test_test2 - 2019.05.24 at 20h 41m 43s.xml">
+      <configuration name="HQL_Test.test2" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MyTest_test2 - 2019.05.24 at 20h 10m 20s.xml">
-      <configuration name="MyTest.test2" configurationId="JUnit" />
+    <history-entry file="HQL_Test_test2 - 2019.05.24 at 20h 42m 23s.xml">
+      <configuration name="HQL_Test.test2" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MyTest_test2 - 2019.05.24 at 20h 11m 05s.xml">
-      <configuration name="MyTest.test2" configurationId="JUnit" />
+    <history-entry file="HQL_Test_test2 - 2019.05.24 at 20h 42m 43s.xml">
+      <configuration name="HQL_Test.test2" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="HQL_Test_test3 - 2019.05.24 at 20h 45m 42s.xml">
+      <configuration name="HQL_Test.test3" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="HQL_Test_test3 - 2019.05.24 at 20h 48m 16s.xml">
+      <configuration name="HQL_Test.test3" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="HQL_Test_test3 - 2019.05.24 at 20h 51m 37s.xml">
+      <configuration name="HQL_Test.test3" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3478000" />
+    <option name="totallyTimeSpent" value="5551000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <editor active="true" />
     <layout>
+      <window_info id="Persistence" side_tool="true" />
       <window_info id="JRebel" side_tool="true" />
       <window_info id="Image Layers" />
       <window_info id="UI Designer" />
@@ -346,13 +399,14 @@
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
       <window_info anchor="bottom" id="Terminal" />
       <window_info anchor="bottom" id="Messages" />
+      <window_info anchor="bottom" id="Java Enterprise" />
       <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" show_stripe_button="false" />
       <window_info anchor="bottom" id="JRebel Executor" />
       <window_info anchor="bottom" id="JRebel Console" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.40381792" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.31277534" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -382,16 +436,6 @@
     <entry file="file://$PROJECT_DIR$/src/customer.hbm.xml">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/myxq/domain/User.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="9" column="14" selection-start-line="9" selection-start-column="14" selection-end-line="9" selection-end-column="14" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/myxq/domain/Role.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="403">
@@ -412,6 +456,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/hibernate.cfg.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="113">
+          <caret line="23" column="12" lean-forward="true" selection-start-line="23" selection-start-column="12" selection-end-line="23" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/user.hbm.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="448">
@@ -419,17 +470,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/hibernate.cfg.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="393">
-          <caret line="33" column="39" selection-start-line="33" selection-start-column="39" selection-end-line="33" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/myxq/test/MyTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="351">
-          <caret line="106" lean-forward="true" selection-start-line="106" selection-end-line="106" />
+        <state relative-caret-position="336">
+          <caret line="12" column="22" selection-start-line="12" selection-start-column="22" selection-end-line="12" selection-end-column="22" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="method#test#0;class#MyTest#0" />
@@ -438,5 +482,100 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/myxq/domain/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="407">
+          <caret line="27" column="19" lean-forward="true" selection-start-line="27" selection-start-column="19" selection-end-line="27" selection-end-column="19" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/myxq/test/HQL_Test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="277">
+          <caret line="78" column="57" selection-start-line="78" selection-start-column="57" selection-end-line="78" selection-end-column="57" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>Hibernate</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.6517755" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>Hibernate|PracticeManyToMany</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.6517755" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>antlr-2.7.7</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
   </component>
 </project>
