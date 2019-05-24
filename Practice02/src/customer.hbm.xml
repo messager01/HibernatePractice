@@ -1,0 +1,26 @@
+<!DOCTYPE hibernate-mapping PUBLIC
+        "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+        "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+    <class name="com.myxq.domain.Customer" table="customer">
+        <!--  主键  主键还要和数据库中的主键做对应-->
+        <id name="cust_id" column="cust_id">
+            <generator class="native" ></generator>  <!--  采用本地的主键增长策略  -->
+        </id>
+
+        <!--  类中的普通字段  与数据库中的属性进行映射 -->
+        <property name="cust_name" column="cust_name"/>
+        <property name="cust_phone" column="cust_phone"/>
+        <property name="cust_industry" column="cust_industry"/>
+        <property name="cust_level" column="cust_level"/>
+        <property name="cust_mobile" column="cust_mobile"/>
+        <property name="cust_source" column="cust_source"/>
+
+
+        <!-- 一对多配置 -->
+        <set name="linkmen" cascade="save-update">   <!--  级联保存  保存关联对象  -->
+            <key column="link_cust_id"></key>   <!--  外键-->
+            <one-to-many class="com.myxq.domain.Linkman"/>
+        </set>
+    </class>
+</hibernate-mapping>
