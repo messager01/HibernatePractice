@@ -18,7 +18,7 @@
 		<!--  格式化SQL  -->
 		<property name="hibernate.format_sql">true</property>
 		<!--  自动创建表  -->
-		<property name="hibernate.hbm2ddl.auto">create</property>
+		<property name="hibernate.hbm2ddl.auto">update</property>
 
 		<!--
 		可选项：
@@ -29,6 +29,12 @@
 		update  如果有表，使用原有表，如果没有，创建新表
 		validate   检验映射和表结构是否一致   不一致就报错
 		-->
+
+		<!--  设置事务的隔离级别 -->
+		<property name="hibernate.connection.isolation">4</property>
+
+		<!--  创建一个session 绑定到当前线程  -->
+		<property name="current_session_context_class">thread</property>
 
 		<mapping resource="Customer.hbm.xml"/>
 	</session-factory>
